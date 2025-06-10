@@ -1,0 +1,10 @@
+packager="`rpm --eval %packager`"
+no_sisyphus_check="buildhost,gpg"
+allowed_mountpoints=/dev/pts,/proc,/dev/shm
+lazy_cleanup=1
+# share_ipc=1
+# Необходимо в случае, когда требуется разрешить доступ в сеть из Hasher chroot.
+# Данная опция не должна применяться без особой необходимости.
+# share_network=1
+# нужен для сборки с репозиториями отличающимися от системного:
+# apt_config="$HOME/.hasher/apt.conf"

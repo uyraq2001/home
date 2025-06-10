@@ -1,0 +1,8 @@
+[user]
+	email = kozyrevid@altlinux.org
+	name = Kozyrev Yuri
+	signingkey = 4EA669A4
+[merge]
+	tool = meld
+[safe]
+	directory = /data/specs
