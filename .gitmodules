@@ -1,3 +1,27 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = git@github.com:uyraq2001/nvim.git
+[submodule ".tmux/plugins/extrakto"]
+	path = .tmux/plugins/extrakto
+	url = https://github.com/laktak/extrakto.git
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+[submodule ".tmux/plugins/tmux-continuum"]
+	path = .tmux/plugins/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule ".tmux/plugins/tmux-fzf-session-switch"]
+	path = .tmux/plugins/tmux-fzf-session-switch
+	url = https://github.com/cutbypham/tmux-fzf-session-switch.git
+[submodule ".tmux/plugins/tmux-menus"]
+	path = .tmux/plugins/tmux-menus
+	url = https://github.com/jaclu/tmux-menus.git
+[submodule ".tmux/plugins/tmux-mighty-scroll"]
+	path = .tmux/plugins/tmux-mighty-scroll
+	url = https://github.com/noscript/tmux-mighty-scroll.git
+[submodule ".tmux/plugins/tmux-resurrect"]
+	path = .tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
+[submodule ".tmux/plugins/tmux-sensible"]
+	path = .tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible.git

@@ -13,8 +13,8 @@
 !.ssh/config
 
 !.tmux/
-!.tmux/*
-!.tmux/plugins/extrakto
+!.tmux/plugins
+!.tmux/plugins/*
 !.bashrc
 !.gitconfig
 !.gitignore
