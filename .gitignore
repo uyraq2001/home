@@ -7,6 +7,7 @@
 !.config/nvim
 
 !.hasher
+!.rpmmacros
 
 !.ssh/
 .ssh/*

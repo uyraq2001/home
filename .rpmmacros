@@ -1,0 +1,8 @@
+%_topdir	%homedir/RPM
+#%_tmppath	%homedir/tmp
+
+%packager Kozyrev Yuri <kozyrevid@altlinux.org>
+%_gpg_name kozyrevid@altlinux.org
+
+# Завершать сборку с ошибкой, если обнаружились незапакованные файлы
+%define _unpackaged_files_terminate_build 1
