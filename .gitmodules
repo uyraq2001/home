@@ -25,3 +25,12 @@
 [submodule ".tmux/plugins/tmux-sensible"]
 	path = .tmux/plugins/tmux-sensible
 	url = https://github.com/tmux-plugins/tmux-sensible.git
+[submodule "tmux2k"]
+	path = tmux2k
+	url = https://github.com/2KAbhishek/tmux2k.git
+[submodule ".tmux/tmux2k"]
+	path = .tmux/tmux2k
+	url = https://github.com/2KAbhishek/tmux2k.git
+[submodule ".tmux/plugins/tmux2k"]
+	path = .tmux/plugins/tmux2k
+	url = https://github.com/2KAbhishek/tmux2k.git
