@@ -1,7 +1,10 @@
 packager="`rpm --eval %packager`"
 no_sisyphus_check="buildhost,gpg"
-allowed_mountpoints=/dev/pts,/proc,/dev/shm
+allowed_mountpoints=/dev/pts,/proc,/dev/shm,/dev,/sys
+mount=/dev/pts,/proc
+known_mountpoints=/proc,/dev/pts,/sys
 lazy_cleanup=1
+workdir="$HOME/hasher"
 # share_ipc=1
 # Необходимо в случае, когда требуется разрешить доступ в сеть из Hasher chroot.
 # Данная опция не должна применяться без особой необходимости.
